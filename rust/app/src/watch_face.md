@@ -1537,6 +1537,10 @@ It's possible to call the RIOT API from Rust. We could use one of the following 
 
 # What's Next
 
+How to test your firmware without a PineTime? We now have a Remote PineTime that you may flash your firmware remotely (by sending Telegram Bot commands) and watch the live video stream (on YouTube).
+
+[Check out Remote PineTime](https://github.com/lupyuen/remote-pinetime-bot/blob/master/README.md)
+
 In this article I have demonstrated that it's not that hard to convert C code to Rust... Even for coding watch faces on smart watches.
 
 _Rust on RIOT has great potential to become the safer, modern replacement for Arduino!_
