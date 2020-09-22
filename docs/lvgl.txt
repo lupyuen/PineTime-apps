@@ -803,7 +803,7 @@ Function[1062]:
  - func[758] sig=1 <strerror>
  - func[759] sig=8 <__pthread_self.1>
  - func[760] sig=2 <strerror_r>
- - func[761] sig=3 <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..Iter$LT$T$GT$$GT$$GT$::spec_extend::h1e78aa3285e39428>
+ - func[761] sig=3 <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..iter..Iter$LT$T$GT$$GT$$GT$::spec_extend::hdb3bcf17b49ec5d6>
  - func[762] sig=14 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::ha7df5a108bceb044>
  - func[763] sig=14 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hb6a7e023c6d51db1>
  - func[764] sig=14 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hed7fce071bfb1e5d>
@@ -912,12 +912,12 @@ Function[1062]:
  - func[867] sig=5 <core::ptr::drop_in_place::h02251e61176f564b>
  - func[868] sig=3 <core::panicking::panic_bounds_check::hdddb319138ce4d81>
  - func[869] sig=3 <core::panicking::panic::ha3ebe59aebd3c1c5>
- - func[870] sig=3 <core::slice::slice_end_index_len_fail::hc98b6c0a11035fda>
+ - func[870] sig=3 <core::slice::index::slice_end_index_len_fail::hdacbea0c00ad2293>
  - func[871] sig=2 <core::fmt::Formatter::pad::h79079677add4d848>
  - func[872] sig=9 <core::str::slice_error_fail::h112061534addde52>
  - func[873] sig=4 <core::panicking::panic_fmt::h737216b7ba45ec3d>
- - func[874] sig=3 <core::slice::slice_index_order_fail::h2b978bbe49807535>
- - func[875] sig=3 <core::slice::slice_start_index_len_fail::h0156045514ecd7da>
+ - func[874] sig=3 <core::slice::index::slice_index_order_fail::h73583340ce0f7dfe>
+ - func[875] sig=3 <core::slice::index::slice_start_index_len_fail::hd72fb7c3fb8b6e73>
  - func[876] sig=0 <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u32$GT$::fmt::hc4ba1f2074daffde>
  - func[877] sig=2 <core::fmt::write::hc21fdaca7ccb09cf>
  - func[878] sig=0 <_$LT$core..ops..range..Range$LT$Idx$GT$$u20$as$u20$core..fmt..Debug$GT$::fmt::h1f808d3ef6d54be2>
@@ -1003,59 +1003,59 @@ Function[1062]:
  - func[958] sig=0 <lvgl::objx::label::set_long_mode::h7b37bfbf822af229>
  - func[959] sig=0 <lvgl::objx::label::set_align::hbcd0068b0ed84dee>
  - func[960] sig=0 <lvgl::objx::label::set_recolor::h83ba87426422c8a0>
- - func[961] sig=3 <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
- - func[962] sig=4 <core::ptr::write::hd1f2c54ce169ed7c>
- - func[963] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
- - func[964] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
- - func[965] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
- - func[966] sig=9 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h1b888fdf6d122663>
- - func[967] sig=13 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h56620285d176388d>
- - func[968] sig=6 <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hffbf75bd0eb580c8>
- - func[969] sig=9 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h6e157c6109d3274d>
- - func[970] sig=3 <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
- - func[971] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
- - func[972] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
- - func[973] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
- - func[974] sig=9 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::hdf661c1f30acb2a6>
- - func[975] sig=0 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
- - func[976] sig=0 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
- - func[977] sig=1 <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
- - func[978] sig=1 <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
- - func[979] sig=9 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf32b82b6b7f99dae>
- - func[980] sig=13 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::h62da534ab21616ff>
- - func[981] sig=1 <cstr_core::strlen::he3498edf0385c838>
- - func[982] sig=3 <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
- - func[983] sig=4 <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
- - func[984] sig=3 <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
- - func[985] sig=3 <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
- - func[986] sig=3 <cstr_core::CStr::to_str::h1dc14e54275e452a>
- - func[987] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
- - func[988] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
- - func[989] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
- - func[990] sig=1 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
- - func[991] sig=3 <core::slice::from_raw_parts::h02c5b44a53f8bd42>
- - func[992] sig=3 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h5c94fadc11c8a53d>
- - func[993] sig=9 <core::slice::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::hbbab64550218751d>
- - func[994] sig=1 <_$LT$core..slice..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::he3f183bc655a558f>
- - func[995] sig=3 <core::slice::from_raw_parts_mut::hdf7ca399c828d123>
- - func[996] sig=9 <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h5ac74a4921446d90>
- - func[997] sig=6 <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::hf90de87bd88cb411>
- - func[998] sig=3 <core::slice::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h267c6d8c1517e0be>
- - func[999] sig=3 <core::fmt::ArgumentV1::new::h234f9148bcecb353>
- - func[1000] sig=0 <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
- - func[1001] sig=3 <core::fmt::ArgumentV1::new::h583455f58b95816e>
- - func[1002] sig=3 <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
- - func[1003] sig=3 <core::fmt::ArgumentV1::new::ha482515d9b945afa>
- - func[1004] sig=3 <core::fmt::ArgumentV1::new::hf08de881d8bab824>
- - func[1005] sig=11 <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
- - func[1006] sig=9 <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
- - func[1007] sig=3 <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
- - func[1008] sig=3 <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
- - func[1009] sig=6 <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
- - func[1010] sig=1 <core::char::methods::len_utf8::h59f634acc855c054>
- - func[1011] sig=6 <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
- - func[1012] sig=1 <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
- - func[1013] sig=4 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[961] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
+ - func[962] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
+ - func[963] sig=0 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
+ - func[964] sig=3 <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
+ - func[965] sig=4 <core::ptr::write::hd1f2c54ce169ed7c>
+ - func[966] sig=9 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h31c75dcc70ddeac0>
+ - func[967] sig=13 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h98ecc92c913951fa>
+ - func[968] sig=9 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hdebcf8a2e4ed417e>
+ - func[969] sig=6 <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hd3d4c72dd15d1490>
+ - func[970] sig=6 <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h126a144b2b12e503>
+ - func[971] sig=9 <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h92943bfcba2131f3>
+ - func[972] sig=3 <core::fmt::ArgumentV1::new::h234f9148bcecb353>
+ - func[973] sig=0 <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
+ - func[974] sig=3 <core::fmt::ArgumentV1::new::h583455f58b95816e>
+ - func[975] sig=3 <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
+ - func[976] sig=3 <core::fmt::ArgumentV1::new::ha482515d9b945afa>
+ - func[977] sig=3 <core::fmt::ArgumentV1::new::hf08de881d8bab824>
+ - func[978] sig=11 <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
+ - func[979] sig=9 <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
+ - func[980] sig=3 <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
+ - func[981] sig=3 <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
+ - func[982] sig=6 <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
+ - func[983] sig=1 <core::char::methods::len_utf8::h59f634acc855c054>
+ - func[984] sig=6 <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
+ - func[985] sig=1 <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
+ - func[986] sig=3 <core::slice::raw::from_raw_parts_mut::h827f80eee08da6b9>
+ - func[987] sig=4 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[988] sig=0 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
+ - func[989] sig=0 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
+ - func[990] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
+ - func[991] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
+ - func[992] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
+ - func[993] sig=1 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
+ - func[994] sig=3 <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
+ - func[995] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
+ - func[996] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
+ - func[997] sig=0 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
+ - func[998] sig=9 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::h09b4e00390540ef0>
+ - func[999] sig=1 <cstr_core::strlen::he3498edf0385c838>
+ - func[1000] sig=3 <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
+ - func[1001] sig=4 <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
+ - func[1002] sig=3 <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
+ - func[1003] sig=3 <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
+ - func[1004] sig=3 <cstr_core::CStr::to_str::h1dc14e54275e452a>
+ - func[1005] sig=1 <_$LT$core..slice..iter..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::hd051dec28028cb15>
+ - func[1006] sig=3 <core::slice::raw::from_raw_parts::h6d899a2be24fc2ab>
+ - func[1007] sig=13 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf9aa65b25a668f77>
+ - func[1008] sig=9 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hcbd85b05e46551cb>
+ - func[1009] sig=1 <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
+ - func[1010] sig=1 <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
+ - func[1011] sig=9 <core::slice::index::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::h2b8bb3f812220817>
+ - func[1012] sig=3 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h01e6bf1a762836ae>
+ - func[1013] sig=3 <core::slice::iter::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h4cc46b9e0dca2f51>
  - func[1014] sig=1 <core::clone::impls::_$LT$impl$u20$core..clone..Clone$u20$for$u20$u8$GT$::clone::h936acbdeb9039a2d>
  - func[1015] sig=8 <_$LT$typenum..bit..B0$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h397301b52074b98b>
  - func[1016] sig=8 <_$LT$typenum..bit..B1$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h73ca79c584d8a6d1>
@@ -1068,8 +1068,8 @@ Function[1062]:
  - func[1023] sig=8 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6873217320c0ce39>
  - func[1024] sig=8 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6c74582d82b1c9b1>
  - func[1025] sig=8 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::hee35d1b92596f2a3>
- - func[1026] sig=2 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::hd54fec0483c8e804>
- - func[1027] sig=2 <_$LT$usize$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h5456b399b00bd9a2>
+ - func[1026] sig=2 <_$LT$usize$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::hfd1f64c9fdfcf086>
+ - func[1027] sig=2 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::h8be0e50261c1c002>
  - func[1028] sig=4 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::as_mut_slice::h5069026ba5dce3b2>
  - func[1029] sig=4 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::push_unchecked::h2822528c1cad2902>
  - func[1030] sig=2 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::extend_from_slice::h57c4f39eccf2ee78>
@@ -1134,8 +1134,8 @@ Function[1062]:
  - func[1089] sig=0 <legalstub$dynCall_ji>
  - func[1090] sig=1 <__growWasmMemory>
 Global[2]:
- - global[0] i32 mutable=1 - init i32=5737328
- - global[1] i32 mutable=0 <__data_end> - init i32=494444
+ - global[0] i32 mutable=1 - init i32=5737312
+ - global[1] i32 mutable=0 <__data_end> - init i32=494428
 Export[26]:
  - func[29] <__wasm_call_ctors> -> "__wasm_call_ctors"
  - func[657] <get_display_buffer> -> "get_display_buffer"
@@ -1211,7 +1211,7 @@ Elem[1]:
   - elem[44] = func[705] <fmt_fp>
   - elem[45] = func[706] <pop_arg_long_double>
   - elem[46] = func[726] <alloc::raw_vec::capacity_overflow::h123d676a7ee7fd7a>
-  - elem[47] = func[870] <core::slice::slice_end_index_len_fail::hc98b6c0a11035fda>
+  - elem[47] = func[870] <core::slice::index::slice_end_index_len_fail::hdacbea0c00ad2293>
   - elem[48] = func[774] <_$LT$$RF$T$u20$as$u20$core..fmt..UpperHex$GT$::fmt::h22c1bcdd9f8e8960>
   - elem[49] = func[836] <std::io::stdio::set_panic::ha8d99b04efbf6ac7>
   - elem[50] = func[853] <std::panicking::default_hook::_$u7b$$u7b$closure$u7d$$u7d$::h4d92b7ac4b6b245e>
@@ -1316,7 +1316,7 @@ Elem[1]:
   - elem[149] = func[1036] <core::ptr::drop_in_place::hb359f2e5180aa721>
   - elem[150] = func[932] <_$LT$core..fmt..Error$u20$as$u20$core..fmt..Debug$GT$::fmt::hded7663ea187ee94>
   - elem[151] = func[925] <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$::fmt::h0f99982ddf070089>
-  - elem[152] = func[1000] <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
+  - elem[152] = func[973] <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
   - elem[153] = func[930] <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u16$GT$::fmt::hf0ce3f9aac669764>
 Code[1062]:
  - func[29] size=5 <__wasm_call_ctors>
@@ -2051,7 +2051,7 @@ Code[1062]:
  - func[758] size=14 <strerror>
  - func[759] size=5 <__pthread_self.1>
  - func[760] size=85 <strerror_r>
- - func[761] size=238 <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..Iter$LT$T$GT$$GT$$GT$::spec_extend::h1e78aa3285e39428>
+ - func[761] size=238 <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..iter..Iter$LT$T$GT$$GT$$GT$::spec_extend::hdb3bcf17b49ec5d6>
  - func[762] size=12 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::ha7df5a108bceb044>
  - func[763] size=12 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hb6a7e023c6d51db1>
  - func[764] size=13 <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hed7fce071bfb1e5d>
@@ -2160,12 +2160,12 @@ Code[1062]:
  - func[867] size=2 <core::ptr::drop_in_place::h02251e61176f564b>
  - func[868] size=110 <core::panicking::panic_bounds_check::hdddb319138ce4d81>
  - func[869] size=71 <core::panicking::panic::ha3ebe59aebd3c1c5>
- - func[870] size=110 <core::slice::slice_end_index_len_fail::hc98b6c0a11035fda>
+ - func[870] size=110 <core::slice::index::slice_end_index_len_fail::hdacbea0c00ad2293>
  - func[871] size=942 <core::fmt::Formatter::pad::h79079677add4d848>
  - func[872] size=1142 <core::str::slice_error_fail::h112061534addde52>
  - func[873] size=51 <core::panicking::panic_fmt::h737216b7ba45ec3d>
- - func[874] size=110 <core::slice::slice_index_order_fail::h2b978bbe49807535>
- - func[875] size=110 <core::slice::slice_start_index_len_fail::h0156045514ecd7da>
+ - func[874] size=110 <core::slice::index::slice_index_order_fail::h73583340ce0f7dfe>
+ - func[875] size=110 <core::slice::index::slice_start_index_len_fail::hd72fb7c3fb8b6e73>
  - func[876] size=14 <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u32$GT$::fmt::hc4ba1f2074daffde>
  - func[877] size=803 <core::fmt::write::hc21fdaca7ccb09cf>
  - func[878] size=130 <_$LT$core..ops..range..Range$LT$Idx$GT$$u20$as$u20$core..fmt..Debug$GT$::fmt::h1f808d3ef6d54be2>
@@ -2251,59 +2251,59 @@ Code[1062]:
  - func[958] size=108 <lvgl::objx::label::set_long_mode::h7b37bfbf822af229>
  - func[959] size=108 <lvgl::objx::label::set_align::hbcd0068b0ed84dee>
  - func[960] size=104 <lvgl::objx::label::set_recolor::h83ba87426422c8a0>
- - func[961] size=116 <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
- - func[962] size=45 <core::ptr::write::hd1f2c54ce169ed7c>
- - func[963] size=74 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
- - func[964] size=65 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
- - func[965] size=40 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
- - func[966] size=153 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h1b888fdf6d122663>
- - func[967] size=273 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h56620285d176388d>
- - func[968] size=52 <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hffbf75bd0eb580c8>
- - func[969] size=162 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h6e157c6109d3274d>
- - func[970] size=116 <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
- - func[971] size=74 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
- - func[972] size=65 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
- - func[973] size=40 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
- - func[974] size=162 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::hdf661c1f30acb2a6>
- - func[975] size=63 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
- - func[976] size=40 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
- - func[977] size=49 <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
- - func[978] size=33 <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
- - func[979] size=153 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf32b82b6b7f99dae>
- - func[980] size=273 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::h62da534ab21616ff>
- - func[981] size=288 <cstr_core::strlen::he3498edf0385c838>
- - func[982] size=302 <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
- - func[983] size=250 <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
- - func[984] size=52 <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
- - func[985] size=52 <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
- - func[986] size=97 <cstr_core::CStr::to_str::h1dc14e54275e452a>
- - func[987] size=74 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
- - func[988] size=65 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
- - func[989] size=107 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
- - func[990] size=88 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
- - func[991] size=102 <core::slice::from_raw_parts::h02c5b44a53f8bd42>
- - func[992] size=247 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h5c94fadc11c8a53d>
- - func[993] size=128 <core::slice::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::hbbab64550218751d>
- - func[994] size=437 <_$LT$core..slice..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::he3f183bc655a558f>
- - func[995] size=102 <core::slice::from_raw_parts_mut::hdf7ca399c828d123>
- - func[996] size=128 <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h5ac74a4921446d90>
- - func[997] size=119 <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::hf90de87bd88cb411>
- - func[998] size=102 <core::slice::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h267c6d8c1517e0be>
- - func[999] size=116 <core::fmt::ArgumentV1::new::h234f9148bcecb353>
- - func[1000] size=109 <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
- - func[1001] size=116 <core::fmt::ArgumentV1::new::h583455f58b95816e>
- - func[1002] size=116 <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
- - func[1003] size=116 <core::fmt::ArgumentV1::new::ha482515d9b945afa>
- - func[1004] size=116 <core::fmt::ArgumentV1::new::hf08de881d8bab824>
- - func[1005] size=140 <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
- - func[1006] size=125 <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
- - func[1007] size=84 <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
- - func[1008] size=52 <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
- - func[1009] size=1914 <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
- - func[1010] size=270 <core::char::methods::len_utf8::h59f634acc855c054>
- - func[1011] size=153 <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
- - func[1012] size=65 <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
- - func[1013] size=68 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[961] size=74 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
+ - func[962] size=65 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
+ - func[963] size=40 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
+ - func[964] size=116 <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
+ - func[965] size=45 <core::ptr::write::hd1f2c54ce169ed7c>
+ - func[966] size=162 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h31c75dcc70ddeac0>
+ - func[967] size=273 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h98ecc92c913951fa>
+ - func[968] size=153 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hdebcf8a2e4ed417e>
+ - func[969] size=52 <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hd3d4c72dd15d1490>
+ - func[970] size=119 <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h126a144b2b12e503>
+ - func[971] size=128 <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h92943bfcba2131f3>
+ - func[972] size=116 <core::fmt::ArgumentV1::new::h234f9148bcecb353>
+ - func[973] size=109 <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
+ - func[974] size=116 <core::fmt::ArgumentV1::new::h583455f58b95816e>
+ - func[975] size=116 <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
+ - func[976] size=116 <core::fmt::ArgumentV1::new::ha482515d9b945afa>
+ - func[977] size=116 <core::fmt::ArgumentV1::new::hf08de881d8bab824>
+ - func[978] size=140 <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
+ - func[979] size=125 <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
+ - func[980] size=84 <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
+ - func[981] size=52 <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
+ - func[982] size=1914 <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
+ - func[983] size=270 <core::char::methods::len_utf8::h59f634acc855c054>
+ - func[984] size=153 <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
+ - func[985] size=65 <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
+ - func[986] size=102 <core::slice::raw::from_raw_parts_mut::h827f80eee08da6b9>
+ - func[987] size=68 <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[988] size=63 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
+ - func[989] size=40 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
+ - func[990] size=74 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
+ - func[991] size=65 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
+ - func[992] size=107 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
+ - func[993] size=88 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
+ - func[994] size=116 <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
+ - func[995] size=74 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
+ - func[996] size=65 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
+ - func[997] size=40 <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
+ - func[998] size=162 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::h09b4e00390540ef0>
+ - func[999] size=288 <cstr_core::strlen::he3498edf0385c838>
+ - func[1000] size=302 <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
+ - func[1001] size=250 <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
+ - func[1002] size=52 <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
+ - func[1003] size=52 <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
+ - func[1004] size=97 <cstr_core::CStr::to_str::h1dc14e54275e452a>
+ - func[1005] size=437 <_$LT$core..slice..iter..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::hd051dec28028cb15>
+ - func[1006] size=102 <core::slice::raw::from_raw_parts::h6d899a2be24fc2ab>
+ - func[1007] size=273 <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf9aa65b25a668f77>
+ - func[1008] size=153 <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hcbd85b05e46551cb>
+ - func[1009] size=49 <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
+ - func[1010] size=33 <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
+ - func[1011] size=128 <core::slice::index::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::h2b8bb3f812220817>
+ - func[1012] size=247 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h01e6bf1a762836ae>
+ - func[1013] size=102 <core::slice::iter::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h4cc46b9e0dca2f51>
  - func[1014] size=42 <core::clone::impls::_$LT$impl$u20$core..clone..Clone$u20$for$u20$u8$GT$::clone::h936acbdeb9039a2d>
  - func[1015] size=11 <_$LT$typenum..bit..B0$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h397301b52074b98b>
  - func[1016] size=11 <_$LT$typenum..bit..B1$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h73ca79c584d8a6d1>
@@ -2316,8 +2316,8 @@ Code[1062]:
  - func[1023] size=52 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6873217320c0ce39>
  - func[1024] size=52 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6c74582d82b1c9b1>
  - func[1025] size=52 <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::hee35d1b92596f2a3>
- - func[1026] size=83 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::hd54fec0483c8e804>
- - func[1027] size=92 <_$LT$usize$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h5456b399b00bd9a2>
+ - func[1026] size=92 <_$LT$usize$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::hfd1f64c9fdfcf086>
+ - func[1027] size=83 <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::h8be0e50261c1c002>
  - func[1028] size=126 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::as_mut_slice::h5069026ba5dce3b2>
  - func[1029] size=216 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::push_unchecked::h2822528c1cad2902>
  - func[1030] size=473 <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::extend_from_slice::h57c4f39eccf2ee78>
@@ -2382,7 +2382,7 @@ Code[1062]:
  - func[1089] size=24 <legalstub$dynCall_ji>
  - func[1090] size=6 <__growWasmMemory>
 Data[3]:
- - segment[0] memory=0 size=20972 - init i32=1024
+ - segment[0] memory=0 size=20956 - init i32=1024
   - 0000400: 2e2f 2e2f 7372 632f 6c76 5f63 6f72 652f  ././src/lv_core/
   - 0000410: 6c76 5f64 6973 702e 6300 6c76 5f64 6973  lv_disp.c.lv_dis
   - 0000420: 705f 6765 745f 7363 725f 6163 7400 6e6f  p_get_scr_act.no
@@ -3031,7 +3031,7 @@ Data[3]:
   - 0002c50: 616e 0046 6562 004d 6172 0041 7072 004d  an.Feb.Mar.Apr.M
   - 0002c60: 6179 004a 756e 6500 4a75 6c79 0041 7567  ay.June.July.Aug
   - 0002c70: 0053 6570 7400 4f63 7400 4e6f 7600 4465  .Sept.Oct.Nov.De
-  - 0002c80: 6300 0000 a856 0000 2d2b 2020 2030 5830  c....V..-+   0X0
+  - 0002c80: 6300 0000 9856 0000 2d2b 2020 2030 5830  c....V..-+   0X0
   - 0002c90: 7800 286e 756c 6c29 0000 0000 0000 0000  x.(null)........
   - 0002ca0: 1100 0a00 1111 1100 0000 0005 0000 0000  ................
   - 0002cb0: 0000 0900 0000 000b 0000 0000 0000 0000  ................
@@ -3211,125 +3211,125 @@ Data[3]:
   - 0003790: 6c74 3a3a 756e 7772 6170 2829 6020 6f6e  lt::unwrap()` on
   - 00037a0: 2061 6e20 6045 7272 6020 7661 6c75 6500   an `Err` value.
   - 00037b0: 4900 0000 0800 0000 0400 0000 5600 0000  I...........V...
-  - 00037c0: 0000 0000 4900 0000 0400 0000 0400 0000  ....I...........
-  - 00037d0: 5700 0000 6c69 6272 6172 792f 7374 642f  W...library/std/
-  - 00037e0: 7372 632f 7468 7265 6164 2f6d 6f64 2e72  src/thread/mod.r
-  - 00037f0: 7360 3a20 6661 696c 6564 2074 6f20 6765  s`: failed to ge
-  - 0003800: 6e65 7261 7465 2075 6e69 7175 6520 7468  nerate unique th
-  - 0003810: 7265 6164 2049 443a 2062 6974 7370 6163  read ID: bitspac
-  - 0003820: 6520 6578 6861 7573 7465 6400 d437 0000  e exhausted..7..
-  - 0003830: 1d00 0000 0c04 0000 1100 0000 d437 0000  .............7..
-  - 0003840: 1d00 0000 1204 0000 2a00 0000 7468 7265  ........*...thre
-  - 0003850: 6164 206e 616d 6520 6d61 7920 6e6f 7420  ad name may not 
-  - 0003860: 636f 6e74 6169 6e20 696e 7465 7269 6f72  contain interior
-  - 0003870: 206e 756c 6c20 6279 7465 7300 d437 0000   null bytes..7..
-  - 0003880: 1d00 0000 5004 0000 2a00 0000 2252 5553  ....P...*..."RUS
-  - 0003890: 545f 4241 434b 5452 4143 4530 6c69 6272  T_BACKTRACE0libr
-  - 00038a0: 6172 792f 7374 642f 7372 632f 656e 762e  ary/std/src/env.
-  - 00038b0: 7273 6661 696c 6564 2074 6f20 6765 7420  rsfailed to get 
-  - 00038c0: 656e 7669 726f 6e6d 656e 7420 7661 7269  environment vari
-  - 00038d0: 6162 6c65 2060 0000 b238 0000 2400 0000  able `...8..$...
-  - 00038e0: f137 0000 0300 0000 9c38 0000 1600 0000  .7.......8......
-  - 00038f0: f200 0000 1d00 0000 5800 0000 0c00 0000  ........X.......
-  - 0003900: 0400 0000 5900 0000 5a00 0000 5b00 0000  ....Y...Z...[...
-  - 0003910: 5c00 0000 5900 0000 5d00 0000 5e00 0000  \...Y...]...^...
-  - 0003920: 6c69 6272 6172 792f 7374 642f 7372 632f  library/std/src/
-  - 0003930: 6666 692f 635f 7374 722e 7273 6461 7461  ffi/c_str.rsdata
-  - 0003940: 2070 726f 7669 6465 6420 636f 6e74 6169   provided contai
-  - 0003950: 6e73 2061 206e 756c 2062 7974 6500 0000  ns a nul byte...
-  - 0003960: 2039 0000 1c00 0000 2e05 0000 0a00 0000   9..............
-  - 0003970: 756e 6578 7065 6374 6564 2065 6e64 206f  unexpected end o
-  - 0003980: 6620 6669 6c65 6f74 6865 7220 6f73 2065  f fileother os e
-  - 0003990: 7272 6f72 6f70 6572 6174 696f 6e20 696e  rroroperation in
-  - 00039a0: 7465 7272 7570 7465 6477 7269 7465 207a  terruptedwrite z
-  - 00039b0: 6572 6f74 696d 6564 206f 7574 696e 7661  erotimed outinva
-  - 00039c0: 6c69 6420 6461 7461 696e 7661 6c69 6420  lid datainvalid 
-  - 00039d0: 696e 7075 7420 7061 7261 6d65 7465 726f  input parametero
-  - 00039e0: 7065 7261 7469 6f6e 2077 6f75 6c64 2062  peration would b
-  - 00039f0: 6c6f 636b 656e 7469 7479 2061 6c72 6561  lockentity alrea
-  - 0003a00: 6479 2065 7869 7374 7362 726f 6b65 6e20  dy existsbroken 
-  - 0003a10: 7069 7065 6164 6472 6573 7320 6e6f 7420  pipeaddress not 
-  - 0003a20: 6176 6169 6c61 626c 6561 6464 7265 7373  availableaddress
-  - 0003a30: 2069 6e20 7573 656e 6f74 2063 6f6e 6e65   in usenot conne
-  - 0003a40: 6374 6564 636f 6e6e 6563 7469 6f6e 2061  ctedconnection a
-  - 0003a50: 626f 7274 6564 636f 6e6e 6563 7469 6f6e  bortedconnection
-  - 0003a60: 2072 6573 6574 636f 6e6e 6563 7469 6f6e   resetconnection
-  - 0003a70: 2072 6566 7573 6564 7065 726d 6973 7369   refusedpermissi
-  - 0003a80: 6f6e 2064 656e 6965 6465 6e74 6974 7920  on deniedentity 
-  - 0003a90: 6e6f 7420 666f 756e 6400 0000 1837 0000  not found....7..
-  - 0003aa0: 0000 0000 2028 6f73 2065 7272 6f72 2029  .... (os error )
-  - 0003ab0: 1837 0000 0000 0000 a43a 0000 0b00 0000  .7.......:......
-  - 0003ac0: af3a 0000 0100 0000 6661 696c 6564 2074  .:......failed t
-  - 0003ad0: 6f20 7772 6974 6520 7768 6f6c 6520 6275  o write whole bu
-  - 0003ae0: 6666 6572 6c69 6272 6172 792f 7374 642f  fferlibrary/std/
-  - 0003af0: 7372 632f 696f 2f73 7464 696f 2e72 7300  src/io/stdio.rs.
-  - 0003b00: e43a 0000 1b00 0000 4303 0000 3b00 0000  .:......C...;...
-  - 0003b10: 6c69 6272 6172 792f 7374 642f 7372 632f  library/std/src/
-  - 0003b20: 696f 2f6d 6f64 2e72 7300 0000 103b 0000  io/mod.rs....;..
-  - 0003b30: 1900 0000 7004 0000 1900 0000 103b 0000  ....p........;..
-  - 0003b40: 1900 0000 6b05 0000 2100 0000 666f 726d  ....k...!...form
-  - 0003b50: 6174 7465 7220 6572 726f 7200 5f00 0000  atter error._...
-  - 0003b60: 0c00 0000 0400 0000 6000 0000 6100 0000  ........`...a...
-  - 0003b70: 6200 0000 7374 6163 6b20 6261 636b 7472  b...stack backtr
-  - 0003b80: 6163 653a 0a00 0000 743b 0000 1100 0000  ace:....t;......
-  - 0003b90: 6e6f 7465 3a20 536f 6d65 2064 6574 6169  note: Some detai
-  - 0003ba0: 6c73 2061 7265 206f 6d69 7474 6564 2c20  ls are omitted, 
-  - 0003bb0: 7275 6e20 7769 7468 2060 5255 5354 5f42  run with `RUST_B
-  - 0003bc0: 4143 4b54 5241 4345 3d66 756c 6c60 2066  ACKTRACE=full` f
-  - 0003bd0: 6f72 2061 2076 6572 626f 7365 2062 6163  or a verbose bac
-  - 0003be0: 6b74 7261 6365 2e0a 903b 0000 5800 0000  ktrace...;..X...
-  - 0003bf0: 6675 6c6c 5c78 0000 f43b 0000 0200 0000  full\x...;......
-  - 0003c00: 0000 0000 2000 0000 0800 0000 0200 0000  .... ...........
-  - 0003c10: 0000 0000 0000 0000 0200 0000 0300 0000  ................
-  - 0003c20: 6c69 6272 6172 792f 7374 642f 7372 632f  library/std/src/
-  - 0003c30: 7379 735f 636f 6d6d 6f6e 2f74 6872 6561  sys_common/threa
-  - 0003c40: 645f 696e 666f 2e72 7300 0000 203c 0000  d_info.rs... <..
-  - 0003c50: 2900 0000 1500 0000 1600 0000 203c 0000  )........... <..
-  - 0003c60: 2900 0000 1600 0000 1800 0000 203c 0000  )........... <..
-  - 0003c70: 2900 0000 1900 0000 1500 0000 203c 0000  )........... <..
-  - 0003c80: 2900 0000 1900 0000 2b00 0000 6661 7461  ).......+...fata
-  - 0003c90: 6c20 7275 6e74 696d 6520 6572 726f 723a  l runtime error:
-  - 0003ca0: 200a 0000 8c3c 0000 1500 0000 a13c 0000   ....<.......<..
-  - 0003cb0: 0100 0000 6d65 6d6f 7279 2061 6c6c 6f63  ....memory alloc
-  - 0003cc0: 6174 696f 6e20 6f66 2020 6279 7465 7320  ation of  bytes 
-  - 0003cd0: 6661 696c 6564 0000 b43c 0000 1500 0000  failed...<......
-  - 0003ce0: c93c 0000 0d00 0000 6c69 6272 6172 792f  .<......library/
-  - 0003cf0: 7374 642f 7372 632f 7061 6e69 636b 696e  std/src/panickin
-  - 0003d00: 672e 7273 e83c 0000 1c00 0000 be00 0000  g.rs.<..........
-  - 0003d10: 2400 0000 426f 783c 416e 793e 3c75 6e6e  $...Box<Any><unn
-  - 0003d20: 616d 6564 3e00 0000 4900 0000 0000 0000  amed>...I.......
-  - 0003d30: 0100 0000 6300 0000 6400 0000 6500 0000  ....c...d...e...
-  - 0003d40: 6600 0000 6700 0000 6800 0000 6900 0000  f...g...h...i...
-  - 0003d50: 0000 0000 6a00 0000 0800 0000 0400 0000  ....j...........
-  - 0003d60: 6b00 0000 6c00 0000 6d00 0000 6e00 0000  k...l...m...n...
-  - 0003d70: 6f00 0000 7000 0000 7100 0000 0000 0000  o...p...q.......
-  - 0003d80: 7468 7265 6164 2027 2720 7061 6e69 636b  thread '' panick
-  - 0003d90: 6564 2061 7420 2727 2c20 0000 803d 0000  ed at '', ...=..
-  - 0003da0: 0800 0000 883d 0000 0f00 0000 973d 0000  .....=.......=..
-  - 0003db0: 0300 0000 a13c 0000 0100 0000 6e6f 7465  .....<......note
-  - 0003dc0: 3a20 7275 6e20 7769 7468 2060 5255 5354  : run with `RUST
-  - 0003dd0: 5f42 4143 4b54 5241 4345 3d31 6020 656e  _BACKTRACE=1` en
-  - 0003de0: 7669 726f 6e6d 656e 7420 7661 7269 6162  vironment variab
-  - 0003df0: 6c65 2074 6f20 6469 7370 6c61 7920 6120  le to display a 
-  - 0003e00: 6261 636b 7472 6163 650a 0000 bc3d 0000  backtrace....=..
-  - 0003e10: 4e00 0000 e83c 0000 1c00 0000 e101 0000  N....<..........
-  - 0003e20: 1f00 0000 e83c 0000 1c00 0000 e201 0000  .....<..........
-  - 0003e30: 1e00 0000 7200 0000 1000 0000 0400 0000  ....r...........
-  - 0003e40: 7300 0000 7400 0000 5800 0000 0c00 0000  s...t...X.......
-  - 0003e50: 0400 0000 7500 0000 4900 0000 0800 0000  ....u...I.......
-  - 0003e60: 0400 0000 7600 0000 7700 0000 4900 0000  ....v...w...I...
-  - 0003e70: 0800 0000 0400 0000 7800 0000 7468 7265  ........x...thre
-  - 0003e80: 6164 2070 616e 6963 6b65 6420 7768 696c  ad panicked whil
-  - 0003e90: 6520 7072 6f63 6573 7369 6e67 2070 616e  e processing pan
-  - 0003ea0: 6963 2e20 6162 6f72 7469 6e67 2e0a 0000  ic. aborting....
-  - 0003eb0: 7c3e 0000 3200 0000 7468 7265 6164 2070  |>..2...thread p
-  - 0003ec0: 616e 6963 6b65 6420 7768 696c 6520 7061  anicked while pa
-  - 0003ed0: 6e69 636b 696e 672e 2061 626f 7274 696e  nicking. abortin
-  - 0003ee0: 672e 0a00 b83e 0000 2b00 0000 6661 696c  g....>..+...fail
-  - 0003ef0: 6564 2074 6f20 696e 6974 6961 7465 2070  ed to initiate p
-  - 0003f00: 616e 6963 2c20 6572 726f 7220 ec3e 0000  anic, error .>..
-  - 0003f10: 2000 0000 4e75 6c45 7272 6f72 4900 0000   ...NulErrorI...
-  - 0003f20: 0400 0000 0400 0000 7900 0000 6c69 6272  ........y...libr
+  - 00037c0: 4900 0000 0400 0000 0400 0000 5700 0000  I...........W...
+  - 00037d0: 6c69 6272 6172 792f 7374 642f 7372 632f  library/std/src/
+  - 00037e0: 7468 7265 6164 2f6d 6f64 2e72 7360 3a20  thread/mod.rs`: 
+  - 00037f0: 6661 696c 6564 2074 6f20 6765 6e65 7261  failed to genera
+  - 0003800: 7465 2075 6e69 7175 6520 7468 7265 6164  te unique thread
+  - 0003810: 2049 443a 2062 6974 7370 6163 6520 6578   ID: bitspace ex
+  - 0003820: 6861 7573 7465 6400 d037 0000 1d00 0000  hausted..7......
+  - 0003830: 0c04 0000 1100 0000 d037 0000 1d00 0000  .........7......
+  - 0003840: 1204 0000 2a00 0000 7468 7265 6164 206e  ....*...thread n
+  - 0003850: 616d 6520 6d61 7920 6e6f 7420 636f 6e74  ame may not cont
+  - 0003860: 6169 6e20 696e 7465 7269 6f72 206e 756c  ain interior nul
+  - 0003870: 6c20 6279 7465 7300 d037 0000 1d00 0000  l bytes..7......
+  - 0003880: 5004 0000 2a00 0000 2252 5553 545f 4241  P...*..."RUST_BA
+  - 0003890: 434b 5452 4143 4530 6c69 6272 6172 792f  CKTRACE0library/
+  - 00038a0: 7374 642f 7372 632f 656e 762e 7273 6661  std/src/env.rsfa
+  - 00038b0: 696c 6564 2074 6f20 6765 7420 656e 7669  iled to get envi
+  - 00038c0: 726f 6e6d 656e 7420 7661 7269 6162 6c65  ronment variable
+  - 00038d0: 2060 0000 ae38 0000 2400 0000 ed37 0000   `...8..$....7..
+  - 00038e0: 0300 0000 9838 0000 1600 0000 f200 0000  .....8..........
+  - 00038f0: 1d00 0000 5800 0000 0c00 0000 0400 0000  ....X...........
+  - 0003900: 5900 0000 5a00 0000 5b00 0000 5c00 0000  Y...Z...[...\...
+  - 0003910: 5900 0000 5d00 0000 5e00 0000 6c69 6272  Y...]...^...libr
+  - 0003920: 6172 792f 7374 642f 7372 632f 6666 692f  ary/std/src/ffi/
+  - 0003930: 635f 7374 722e 7273 6461 7461 2070 726f  c_str.rsdata pro
+  - 0003940: 7669 6465 6420 636f 6e74 6169 6e73 2061  vided contains a
+  - 0003950: 206e 756c 2062 7974 6500 0000 1c39 0000   nul byte....9..
+  - 0003960: 1c00 0000 2e05 0000 0a00 0000 756e 6578  ............unex
+  - 0003970: 7065 6374 6564 2065 6e64 206f 6620 6669  pected end of fi
+  - 0003980: 6c65 6f74 6865 7220 6f73 2065 7272 6f72  leother os error
+  - 0003990: 6f70 6572 6174 696f 6e20 696e 7465 7272  operation interr
+  - 00039a0: 7570 7465 6477 7269 7465 207a 6572 6f74  uptedwrite zerot
+  - 00039b0: 696d 6564 206f 7574 696e 7661 6c69 6420  imed outinvalid 
+  - 00039c0: 6461 7461 696e 7661 6c69 6420 696e 7075  datainvalid inpu
+  - 00039d0: 7420 7061 7261 6d65 7465 726f 7065 7261  t parameteropera
+  - 00039e0: 7469 6f6e 2077 6f75 6c64 2062 6c6f 636b  tion would block
+  - 00039f0: 656e 7469 7479 2061 6c72 6561 6479 2065  entity already e
+  - 0003a00: 7869 7374 7362 726f 6b65 6e20 7069 7065  xistsbroken pipe
+  - 0003a10: 6164 6472 6573 7320 6e6f 7420 6176 6169  address not avai
+  - 0003a20: 6c61 626c 6561 6464 7265 7373 2069 6e20  lableaddress in 
+  - 0003a30: 7573 656e 6f74 2063 6f6e 6e65 6374 6564  usenot connected
+  - 0003a40: 636f 6e6e 6563 7469 6f6e 2061 626f 7274  connection abort
+  - 0003a50: 6564 636f 6e6e 6563 7469 6f6e 2072 6573  edconnection res
+  - 0003a60: 6574 636f 6e6e 6563 7469 6f6e 2072 6566  etconnection ref
+  - 0003a70: 7573 6564 7065 726d 6973 7369 6f6e 2064  usedpermission d
+  - 0003a80: 656e 6965 6465 6e74 6974 7920 6e6f 7420  eniedentity not 
+  - 0003a90: 666f 756e 6400 0000 1837 0000 0000 0000  found....7......
+  - 0003aa0: 2028 6f73 2065 7272 6f72 2029 1837 0000   (os error ).7..
+  - 0003ab0: 0000 0000 a03a 0000 0b00 0000 ab3a 0000  .....:.......:..
+  - 0003ac0: 0100 0000 6661 696c 6564 2074 6f20 7772  ....failed to wr
+  - 0003ad0: 6974 6520 7768 6f6c 6520 6275 6666 6572  ite whole buffer
+  - 0003ae0: 6c69 6272 6172 792f 7374 642f 7372 632f  library/std/src/
+  - 0003af0: 696f 2f73 7464 696f 2e72 7300 e03a 0000  io/stdio.rs..:..
+  - 0003b00: 1b00 0000 4303 0000 3b00 0000 6c69 6272  ....C...;...libr
+  - 0003b10: 6172 792f 7374 642f 7372 632f 696f 2f6d  ary/std/src/io/m
+  - 0003b20: 6f64 2e72 7300 0000 0c3b 0000 1900 0000  od.rs....;......
+  - 0003b30: 7004 0000 1900 0000 0c3b 0000 1900 0000  p........;......
+  - 0003b40: 6b05 0000 2100 0000 666f 726d 6174 7465  k...!...formatte
+  - 0003b50: 7220 6572 726f 7200 5f00 0000 0c00 0000  r error._.......
+  - 0003b60: 0400 0000 6000 0000 6100 0000 6200 0000  ....`...a...b...
+  - 0003b70: 7374 6163 6b20 6261 636b 7472 6163 653a  stack backtrace:
+  - 0003b80: 0a00 0000 703b 0000 1100 0000 6e6f 7465  ....p;......note
+  - 0003b90: 3a20 536f 6d65 2064 6574 6169 6c73 2061  : Some details a
+  - 0003ba0: 7265 206f 6d69 7474 6564 2c20 7275 6e20  re omitted, run 
+  - 0003bb0: 7769 7468 2060 5255 5354 5f42 4143 4b54  with `RUST_BACKT
+  - 0003bc0: 5241 4345 3d66 756c 6c60 2066 6f72 2061  RACE=full` for a
+  - 0003bd0: 2076 6572 626f 7365 2062 6163 6b74 7261   verbose backtra
+  - 0003be0: 6365 2e0a 8c3b 0000 5800 0000 6675 6c6c  ce...;..X...full
+  - 0003bf0: 5c78 0000 f03b 0000 0200 0000 0000 0000  \x...;..........
+  - 0003c00: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
+  - 0003c10: 0000 0000 0200 0000 0300 0000 6c69 6272  ............libr
+  - 0003c20: 6172 792f 7374 642f 7372 632f 7379 735f  ary/std/src/sys_
+  - 0003c30: 636f 6d6d 6f6e 2f74 6872 6561 645f 696e  common/thread_in
+  - 0003c40: 666f 2e72 7300 0000 1c3c 0000 2900 0000  fo.rs....<..)...
+  - 0003c50: 1500 0000 1600 0000 1c3c 0000 2900 0000  .........<..)...
+  - 0003c60: 1600 0000 1800 0000 1c3c 0000 2900 0000  .........<..)...
+  - 0003c70: 1900 0000 1500 0000 1c3c 0000 2900 0000  .........<..)...
+  - 0003c80: 1900 0000 2b00 0000 6661 7461 6c20 7275  ....+...fatal ru
+  - 0003c90: 6e74 696d 6520 6572 726f 723a 200a 0000  ntime error: ...
+  - 0003ca0: 883c 0000 1500 0000 9d3c 0000 0100 0000  .<.......<......
+  - 0003cb0: 6d65 6d6f 7279 2061 6c6c 6f63 6174 696f  memory allocatio
+  - 0003cc0: 6e20 6f66 2020 6279 7465 7320 6661 696c  n of  bytes fail
+  - 0003cd0: 6564 0000 b03c 0000 1500 0000 c53c 0000  ed...<.......<..
+  - 0003ce0: 0d00 0000 6c69 6272 6172 792f 7374 642f  ....library/std/
+  - 0003cf0: 7372 632f 7061 6e69 636b 696e 672e 7273  src/panicking.rs
+  - 0003d00: e43c 0000 1c00 0000 be00 0000 2400 0000  .<..........$...
+  - 0003d10: 426f 783c 416e 793e 3c75 6e6e 616d 6564  Box<Any><unnamed
+  - 0003d20: 3e00 0000 4900 0000 0000 0000 0100 0000  >...I...........
+  - 0003d30: 6300 0000 6400 0000 6500 0000 6600 0000  c...d...e...f...
+  - 0003d40: 6700 0000 6800 0000 6900 0000 0000 0000  g...h...i.......
+  - 0003d50: 6a00 0000 0800 0000 0400 0000 6b00 0000  j...........k...
+  - 0003d60: 6c00 0000 6d00 0000 6e00 0000 6f00 0000  l...m...n...o...
+  - 0003d70: 7000 0000 7100 0000 0000 0000 7468 7265  p...q.......thre
+  - 0003d80: 6164 2027 2720 7061 6e69 636b 6564 2061  ad '' panicked a
+  - 0003d90: 7420 2727 2c20 0000 7c3d 0000 0800 0000  t '', ..|=......
+  - 0003da0: 843d 0000 0f00 0000 933d 0000 0300 0000  .=.......=......
+  - 0003db0: 9d3c 0000 0100 0000 6e6f 7465 3a20 7275  .<......note: ru
+  - 0003dc0: 6e20 7769 7468 2060 5255 5354 5f42 4143  n with `RUST_BAC
+  - 0003dd0: 4b54 5241 4345 3d31 6020 656e 7669 726f  KTRACE=1` enviro
+  - 0003de0: 6e6d 656e 7420 7661 7269 6162 6c65 2074  nment variable t
+  - 0003df0: 6f20 6469 7370 6c61 7920 6120 6261 636b  o display a back
+  - 0003e00: 7472 6163 650a 0000 b83d 0000 4e00 0000  trace....=..N...
+  - 0003e10: e43c 0000 1c00 0000 e101 0000 1f00 0000  .<..............
+  - 0003e20: e43c 0000 1c00 0000 e201 0000 1e00 0000  .<..............
+  - 0003e30: 7200 0000 1000 0000 0400 0000 7300 0000  r...........s...
+  - 0003e40: 7400 0000 5800 0000 0c00 0000 0400 0000  t...X...........
+  - 0003e50: 7500 0000 4900 0000 0800 0000 0400 0000  u...I...........
+  - 0003e60: 7600 0000 7700 0000 4900 0000 0800 0000  v...w...I.......
+  - 0003e70: 0400 0000 7800 0000 7468 7265 6164 2070  ....x...thread p
+  - 0003e80: 616e 6963 6b65 6420 7768 696c 6520 7072  anicked while pr
+  - 0003e90: 6f63 6573 7369 6e67 2070 616e 6963 2e20  ocessing panic. 
+  - 0003ea0: 6162 6f72 7469 6e67 2e0a 0000 783e 0000  aborting....x>..
+  - 0003eb0: 3200 0000 7468 7265 6164 2070 616e 6963  2...thread panic
+  - 0003ec0: 6b65 6420 7768 696c 6520 7061 6e69 636b  ked while panick
+  - 0003ed0: 696e 672e 2061 626f 7274 696e 672e 0a00  ing. aborting...
+  - 0003ee0: b43e 0000 2b00 0000 6661 696c 6564 2074  .>..+...failed t
+  - 0003ef0: 6f20 696e 6974 6961 7465 2070 616e 6963  o initiate panic
+  - 0003f00: 2c20 6572 726f 7220 e83e 0000 2000 0000  , error .>.. ...
+  - 0003f10: 4e75 6c45 7272 6f72 4900 0000 0400 0000  NulErrorI.......
+  - 0003f20: 0400 0000 7900 0000 0000 0000 6c69 6272  ....y.......libr
   - 0003f30: 6172 792f 7374 642f 7372 632f 7379 732f  ary/std/src/sys/
   - 0003f40: 756e 6978 2f63 6f6e 6476 6172 2e72 7300  unix/condvar.rs.
   - 0003f50: 2c3f 0000 2300 0000 2e00 0000 0900 0000  ,?..#...........
@@ -3616,106 +3616,106 @@ Data[3]:
   - 00050e0: d850 0000 e450 0000 7275 7374 2f6c 7667  .P...P..rust/lvg
   - 00050f0: 6c2f 7372 632f 6c69 622e 7273 e850 0000  l/src/lib.rs.P..
   - 0005100: 1400 0000 6b00 0000 0900 0000 e850 0000  ....k........P..
-  - 0005110: 1400 0000 b800 0000 1100 0000 2f68 6f6d  ............/hom
-  - 0005120: 652f 7275 6e6e 6572 2f2e 6361 7267 6f2f  e/runner/.cargo/
-  - 0005130: 7265 6769 7374 7279 2f73 7263 2f67 6974  registry/src/git
-  - 0005140: 6875 622e 636f 6d2d 3165 6363 3632 3939  hub.com-1ecc6299
-  - 0005150: 6462 3965 6338 3233 2f63 7374 725f 636f  db9ec823/cstr_co
-  - 0005160: 7265 2d30 2e31 2e32 2f73 7263 2f6c 6962  re-0.1.2/src/lib
-  - 0005170: 2e72 7300 1c51 0000 5700 0000 3200 0000  .rs..Q..W...2...
-  - 0005180: 0900 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005190: 6174 7465 6d70 7420 746f 2061 6464 2077  attempt to add w
-  - 00051a0: 6974 6820 6f76 6572 666c 6f77 1c51 0000  ith overflow.Q..
-  - 00051b0: 5700 0000 8203 0000 4800 0000 1c51 0000  W.......H....Q..
-  - 00051c0: 5700 0000 0904 0000 1200 0000 0000 0000  W...............
-  - 00051d0: 6174 7465 6d70 7420 746f 2073 7562 7472  attempt to subtr
-  - 00051e0: 6163 7420 7769 7468 206f 7665 7266 6c6f  act with overflo
-  - 00051f0: 7700 0000 1c51 0000 5700 0000 0904 0000  w....Q..W.......
-  - 0005200: 0a00 0000 2f72 7573 7463 2f37 3430 3261  ..../rustc/7402a
-  - 0005210: 3339 3434 3731 6136 3733 3861 3430 6665  394471a6738a40fe
-  - 0005220: 6137 6434 6631 3839 3136 3636 6535 6138  a7d4f1891666e5a8
-  - 0005230: 3063 352f 6c69 6272 6172 792f 636f 7265  0c5/library/core
-  - 0005240: 2f73 7263 2f63 6861 722f 6d65 7468 6f64  /src/char/method
-  - 0005250: 732e 7273 0452 0000 5000 0000 5706 0000  s.rs.R..P...W...
-  - 0005260: 1600 0000 0452 0000 5000 0000 7106 0000  .....R..P...q...
-  - 0005270: 0a00 0000 656e 636f 6465 5f75 7466 383a  ....encode_utf8:
-  - 0005280: 206e 6565 6420 2062 7974 6573 2074 6f20   need  bytes to 
-  - 0005290: 656e 636f 6465 2055 2b2c 2062 7574 2074  encode U+, but t
-  - 00052a0: 6865 2062 7566 6665 7220 6861 7320 0000  he buffer has ..
-  - 00052b0: 7452 0000 1200 0000 8652 0000 1300 0000  tR.......R......
-  - 00052c0: 9952 0000 1500 0000 b052 0000 0452 0000  .R.......R...R..
-  - 00052d0: 5000 0000 6a06 0000 0e00 0000 2f68 6f6d  P...j......./hom
-  - 00052e0: 652f 7275 6e6e 6572 2f2e 6361 7267 6f2f  e/runner/.cargo/
-  - 00052f0: 7265 6769 7374 7279 2f73 7263 2f67 6974  registry/src/git
-  - 0005300: 6875 622e 636f 6d2d 3165 6363 3632 3939  hub.com-1ecc6299
-  - 0005310: 6462 3965 6338 3233 2f68 6561 706c 6573  db9ec823/heaples
-  - 0005320: 732d 302e 352e 352f 7372 632f 7665 632e  s-0.5.5/src/vec.
-  - 0005330: 7273 0000 dc52 0000 5600 0000 6600 0000  rs...R..V...f...
-  - 0005340: 0900 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005350: 6174 7465 6d70 7420 746f 2061 6464 2077  attempt to add w
-  - 0005360: 6974 6820 6f76 6572 666c 6f77 dc52 0000  ith overflow.R..
-  - 0005370: 5600 0000 3e00 0000 0c00 0000 dc52 0000  V...>........R..
-  - 0005380: 5600 0000 7e00 0000 1100 0000 0000 0000  V...~...........
-  - 0005390: 6174 7465 6d70 7420 746f 2073 7562 7472  attempt to subtr
-  - 00053a0: 6163 7420 7769 7468 206f 7665 7266 6c6f  act with overflo
-  - 00053b0: 7700 0000 8e00 0000 0400 0000 0400 0000  w...............
-  - 00053c0: 8f00 0000 9000 0000 9100 0000 9200 0000  ................
-  - 00053d0: 0800 0000 0400 0000 5600 0000 9300 0000  ........V.......
-  - 00053e0: 0400 0000 0400 0000 9400 0000 9500 0000  ................
-  - 00053f0: 0000 0000 0100 0000 9600 0000 6e75 6c6c  ............null
-  - 0005400: 2073 6372 6565 6e72 7573 742f 6170 702f   screenrust/app/
-  - 0005410: 7372 632f 7761 7463 685f 6661 6365 2e72  src/watch_face.r
-  - 0005420: 7300 0000 0754 0000 1a00 0000 1100 0000  s....T..........
-  - 0005430: 0500 0000 3030 3a30 3000 0020 3a00 0000  ....00:00.. :...
-  - 0005440: 3b54 0000 0000 0000 3c54 0000 0100 0000  ;T......<T......
-  - 0005450: 3a54 0000 0100 0000 4054 0000 0000 0000  :T......@T......
-  - 0005460: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
-  - 0005470: 0000 0000 0200 0000 0300 0000 0100 0000  ................
-  - 0005480: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
-  - 0005490: 0000 0000 0200 0000 0300 0000 5c54 0000  ............\T..
-  - 00054a0: 7469 6d65 2066 6169 6c00 0000 0754 0000  time fail....T..
-  - 00054b0: 1a00 0000 9f00 0000 0b00 0000 6d6f 6e74  ............mont
-  - 00054c0: 6820 6e75 6c6c 0000 0754 0000 1a00 0000  h null...T......
-  - 00054d0: a800 0000 0500 0000 6d6f 6e74 6820 6661  ........month fa
-  - 00054e0: 696c 0000 0754 0000 1a00 0000 aa00 0000  il...T..........
-  - 00054f0: 0a00 0000 0a00 0000 3b54 0000 0000 0000  ........;T......
-  - 0005500: 3b54 0000 0100 0000 3b54 0000 0100 0000  ;T......;T......
-  - 0005510: f454 0000 0200 0000 f854 0000 6461 7465  .T.......T..date
-  - 0005520: 2066 6169 6c00 0000 0754 0000 1a00 0000   fail....T......
-  - 0005530: b700 0000 0b00 0000 496e 2052 7573 743a  ........In Rust:
-  - 0005540: 2043 7265 6174 696e 6720 636c 6f63 6b2e   Creating clock.
-  - 0005550: 2e2e 0063 7265 6174 655f 7769 6467 6574  ...create_widget
-  - 0005560: 7320 6661 696c 6564 7275 7374 2f77 6173  s failedrust/was
-  - 0005570: 6d2f 7372 632f 6c69 622e 7273 6855 0000  m/src/lib.rshU..
-  - 0005580: 1400 0000 1a00 0000 0e00 0000 496e 2052  ............In R
-  - 0005590: 7573 743a 2052 6566 7265 7368 696e 6720  ust: Refreshing 
-  - 00055a0: 636c 6f63 6b2e 2e2e 0049 6e20 5275 7374  clock....In Rust
-  - 00055b0: 3a20 5570 6461 7469 6e67 2063 6c6f 636b  : Updating clock
-  - 00055c0: 2e2e 2e00 7365 745f 7469 6d65 5f6c 6162  ....set_time_lab
-  - 00055d0: 656c 2066 6169 6c65 6400 0000 6855 0000  el failed...hU..
-  - 00055e0: 1400 0000 3c00 0000 0e00 0000            ....<.......
- - segment[1] memory=0 size=577 - init i32=22000
-  - 00055f0: d078 0000 1000 0000 e078 0000 1000 0000  .x.......x......
-  - 0005600: 1500 0000 1600 0000 1700 0000 1800 0000  ................
-  - 0005610: 1900 0000 1a00 0000 0000 0000 0000 0000  ................
-  - 0005620: f615 0000 fc15 0000 0116 0000 0616 0000  ................
-  - 0005630: 0c16 0000 2700 0000 2800 0000 1500 0300  ....'...(.......
-  - 0005640: 0000 0000 4c56 0000 0000 0000 901f 0000  ....LV..........
-  - 0005650: a027 0000 7027 0000 0000 0000 0000 0204  .'..p'..........
-  - 0005660: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005670: 4b2c 0000 4f2c 0000 532c 0000 572c 0000  K,..O,..S,..W,..
-  - 0005680: 5b2c 0000 5f2c 0000 632c 0000 682c 0000  [,.._,..c,..h,..
-  - 0005690: 6d2c 0000 712c 0000 762c 0000 7a2c 0000  m,..q,..v,..z,..
-  - 00056a0: 7e2c 0000 0000 0000 0500 0000 0000 0000  ~,..............
-  - 00056b0: 0000 0000 2900 0000 0000 0000 0000 0000  ....)...........
-  - 00056c0: 0000 0000 0000 0000 0000 0000 2a00 0000  ............*...
-  - 00056d0: 2b00 0000 c883 0700 0004 0000 0000 0000  +...............
-  - 00056e0: 0000 0000 0100 0000 0000 0000 0000 0000  ................
-  - 00056f0: 0000 000a ffff ffff 0000 0000 0000 0000  ................
+  - 0005110: 1400 0000 b800 0000 1100 0000 2f72 7573  ............/rus
+  - 0005120: 7463 2f36 6166 3162 6464 6135 3461 6263  tc/6af1bdda54abc
+  - 0005130: 3965 3931 3966 6331 3133 3734 3131 6466  9e919fc1137411df
+  - 0005140: 6334 3331 3165 3035 3634 392f 6c69 6272  c4311e05649/libr
+  - 0005150: 6172 792f 636f 7265 2f73 7263 2f63 6861  ary/core/src/cha
+  - 0005160: 722f 6d65 7468 6f64 732e 7273 1c51 0000  r/methods.rs.Q..
+  - 0005170: 5000 0000 5706 0000 1600 0000 1c51 0000  P...W........Q..
+  - 0005180: 5000 0000 7106 0000 0a00 0000 656e 636f  P...q.......enco
+  - 0005190: 6465 5f75 7466 383a 206e 6565 6420 2062  de_utf8: need  b
+  - 00051a0: 7974 6573 2074 6f20 656e 636f 6465 2055  ytes to encode U
+  - 00051b0: 2b2c 2062 7574 2074 6865 2062 7566 6665  +, but the buffe
+  - 00051c0: 7220 6861 7320 0000 8c51 0000 1200 0000  r has ...Q......
+  - 00051d0: 9e51 0000 1300 0000 b151 0000 1500 0000  .Q.......Q......
+  - 00051e0: c851 0000 1c51 0000 5000 0000 6a06 0000  .Q...Q..P...j...
+  - 00051f0: 0e00 0000 2f68 6f6d 652f 7275 6e6e 6572  ..../home/runner
+  - 0005200: 2f2e 6361 7267 6f2f 7265 6769 7374 7279  /.cargo/registry
+  - 0005210: 2f73 7263 2f67 6974 6875 622e 636f 6d2d  /src/github.com-
+  - 0005220: 3165 6363 3632 3939 6462 3965 6338 3233  1ecc6299db9ec823
+  - 0005230: 2f63 7374 725f 636f 7265 2d30 2e31 2e32  /cstr_core-0.1.2
+  - 0005240: 2f73 7263 2f6c 6962 2e72 7300 f451 0000  /src/lib.rs..Q..
+  - 0005250: 5700 0000 3200 0000 0900 0000 0000 0000  W...2...........
+  - 0005260: 6174 7465 6d70 7420 746f 2061 6464 2077  attempt to add w
+  - 0005270: 6974 6820 6f76 6572 666c 6f77 f451 0000  ith overflow.Q..
+  - 0005280: 5700 0000 8203 0000 4800 0000 f451 0000  W.......H....Q..
+  - 0005290: 5700 0000 0904 0000 1200 0000 0000 0000  W...............
+  - 00052a0: 6174 7465 6d70 7420 746f 2073 7562 7472  attempt to subtr
+  - 00052b0: 6163 7420 7769 7468 206f 7665 7266 6c6f  act with overflo
+  - 00052c0: 7700 0000 f451 0000 5700 0000 0904 0000  w....Q..W.......
+  - 00052d0: 0a00 0000 2f68 6f6d 652f 7275 6e6e 6572  ..../home/runner
+  - 00052e0: 2f2e 6361 7267 6f2f 7265 6769 7374 7279  /.cargo/registry
+  - 00052f0: 2f73 7263 2f67 6974 6875 622e 636f 6d2d  /src/github.com-
+  - 0005300: 3165 6363 3632 3939 6462 3965 6338 3233  1ecc6299db9ec823
+  - 0005310: 2f68 6561 706c 6573 732d 302e 352e 352f  /heapless-0.5.5/
+  - 0005320: 7372 632f 7665 632e 7273 0000 d452 0000  src/vec.rs...R..
+  - 0005330: 5600 0000 6600 0000 0900 0000 0000 0000  V...f...........
+  - 0005340: 6174 7465 6d70 7420 746f 2061 6464 2077  attempt to add w
+  - 0005350: 6974 6820 6f76 6572 666c 6f77 d452 0000  ith overflow.R..
+  - 0005360: 5600 0000 3e00 0000 0c00 0000 d452 0000  V...>........R..
+  - 0005370: 5600 0000 7e00 0000 1100 0000 0000 0000  V...~...........
+  - 0005380: 6174 7465 6d70 7420 746f 2073 7562 7472  attempt to subtr
+  - 0005390: 6163 7420 7769 7468 206f 7665 7266 6c6f  act with overflo
+  - 00053a0: 7700 0000 8e00 0000 0400 0000 0400 0000  w...............
+  - 00053b0: 8f00 0000 9000 0000 9100 0000 9200 0000  ................
+  - 00053c0: 0800 0000 0400 0000 5600 0000 9300 0000  ........V.......
+  - 00053d0: 0400 0000 0400 0000 9400 0000 9500 0000  ................
+  - 00053e0: 0000 0000 0100 0000 9600 0000 6e75 6c6c  ............null
+  - 00053f0: 2073 6372 6565 6e72 7573 742f 6170 702f   screenrust/app/
+  - 0005400: 7372 632f 7761 7463 685f 6661 6365 2e72  src/watch_face.r
+  - 0005410: 7300 0000 f753 0000 1a00 0000 1100 0000  s....S..........
+  - 0005420: 0500 0000 3030 3a30 3000 0020 3a00 0000  ....00:00.. :...
+  - 0005430: 2b54 0000 0000 0000 2c54 0000 0100 0000  +T......,T......
+  - 0005440: 2a54 0000 0100 0000 3054 0000 0000 0000  *T......0T......
+  - 0005450: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
+  - 0005460: 0000 0000 0200 0000 0300 0000 0100 0000  ................
+  - 0005470: 2000 0000 0800 0000 0200 0000 0000 0000   ...............
+  - 0005480: 0000 0000 0200 0000 0300 0000 4c54 0000  ............LT..
+  - 0005490: 7469 6d65 2066 6169 6c00 0000 f753 0000  time fail....S..
+  - 00054a0: 1a00 0000 9f00 0000 0b00 0000 6d6f 6e74  ............mont
+  - 00054b0: 6820 6e75 6c6c 0000 f753 0000 1a00 0000  h null...S......
+  - 00054c0: a800 0000 0500 0000 6d6f 6e74 6820 6661  ........month fa
+  - 00054d0: 696c 0000 f753 0000 1a00 0000 aa00 0000  il...S..........
+  - 00054e0: 0a00 0000 0a00 0000 2b54 0000 0000 0000  ........+T......
+  - 00054f0: 2b54 0000 0100 0000 2b54 0000 0100 0000  +T......+T......
+  - 0005500: e454 0000 0200 0000 e854 0000 6461 7465  .T.......T..date
+  - 0005510: 2066 6169 6c00 0000 f753 0000 1a00 0000   fail....S......
+  - 0005520: b700 0000 0b00 0000 496e 2052 7573 743a  ........In Rust:
+  - 0005530: 2043 7265 6174 696e 6720 636c 6f63 6b2e   Creating clock.
+  - 0005540: 2e2e 0063 7265 6174 655f 7769 6467 6574  ...create_widget
+  - 0005550: 7320 6661 696c 6564 7275 7374 2f77 6173  s failedrust/was
+  - 0005560: 6d2f 7372 632f 6c69 622e 7273 5855 0000  m/src/lib.rsXU..
+  - 0005570: 1400 0000 1a00 0000 0e00 0000 496e 2052  ............In R
+  - 0005580: 7573 743a 2052 6566 7265 7368 696e 6720  ust: Refreshing 
+  - 0005590: 636c 6f63 6b2e 2e2e 0049 6e20 5275 7374  clock....In Rust
+  - 00055a0: 3a20 5570 6461 7469 6e67 2063 6c6f 636b  : Updating clock
+  - 00055b0: 2e2e 2e00 7365 745f 7469 6d65 5f6c 6162  ....set_time_lab
+  - 00055c0: 656c 2066 6169 6c65 6400 0000 5855 0000  el failed...XU..
+  - 00055d0: 1400 0000 3c00 0000 0e00 0000            ....<.......
+ - segment[1] memory=0 size=577 - init i32=21984
+  - 00055e0: c078 0000 1000 0000 d078 0000 1000 0000  .x.......x......
+  - 00055f0: 1500 0000 1600 0000 1700 0000 1800 0000  ................
+  - 0005600: 1900 0000 1a00 0000 0000 0000 0000 0000  ................
+  - 0005610: f615 0000 fc15 0000 0116 0000 0616 0000  ................
+  - 0005620: 0c16 0000 2700 0000 2800 0000 1500 0300  ....'...(.......
+  - 0005630: 0000 0000 3c56 0000 0000 0000 901f 0000  ....<V..........
+  - 0005640: a027 0000 7027 0000 0000 0000 0000 0204  .'..p'..........
+  - 0005650: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - 0005660: 4b2c 0000 4f2c 0000 532c 0000 572c 0000  K,..O,..S,..W,..
+  - 0005670: 5b2c 0000 5f2c 0000 632c 0000 682c 0000  [,.._,..c,..h,..
+  - 0005680: 6d2c 0000 712c 0000 762c 0000 7a2c 0000  m,..q,..v,..z,..
+  - 0005690: 7e2c 0000 0000 0000 0500 0000 0000 0000  ~,..............
+  - 00056a0: 0000 0000 2900 0000 0000 0000 0000 0000  ....)...........
+  - 00056b0: 0000 0000 0000 0000 0000 0000 2a00 0000  ............*...
+  - 00056c0: 2b00 0000 b883 0700 0004 0000 0000 0000  +...............
+  - 00056d0: 0000 0000 0100 0000 0000 0000 0000 0000  ................
+  - 00056e0: 0000 000a ffff ffff 0000 0000 0000 0000  ................
+  - 00056f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005700: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005710: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005720: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005730: 0000 0000 0000 0000 a856 0000 0000 0000  .........V......
+  - 0005720: 0000 0000 0000 0000 9856 0000 0000 0000  .........V......
+  - 0005730: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005740: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005750: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005760: 0000 0000 0000 0000 0000 0000 0000 0000  ................
@@ -3725,14 +3725,14 @@ Data[3]:
   - 00057a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 00057b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 00057c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 00057d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 00057e0: 0000 0000 0000 0000 0000 0000 f087 0700  ................
+  - 00057d0: 0000 0000 0000 0000 0000 0000 e087 0700  ................
+  - 00057e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 00057f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005800: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005810: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0005820: 0000 0000 0000 0000 0100 0000 0000 0000  ................
-  - 0005830: 01                                       .
- - segment[2] memory=0 size=471852 - init i32=22592
+  - 0005810: 0000 0000 0000 0000 0100 0000 0000 0000  ................
+  - 0005820: 01                                       .
+ - segment[2] memory=0 size=471852 - init i32=22576
+  - 0005830: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005840: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005850: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0005860: 0000 0000 0000 0000 0000 0000 0000 0000  ................
@@ -33222,8 +33222,7 @@ Data[3]:
   - 0078b20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0078b30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
   - 0078b40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0078b50: 0000 0000 0000 0000 0000 0000 0000 0000  ................
-  - 0078b60: 0000 0000 0000 0000 0000 0000            ............
+  - 0078b50: 0000 0000 0000 0000 0000 0000            ............
 Custom:
  - name: "name"
  - func[0] <__assert_fail>
@@ -33987,7 +33986,7 @@ Custom:
  - func[758] <strerror>
  - func[759] <__pthread_self.1>
  - func[760] <strerror_r>
- - func[761] <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..Iter$LT$T$GT$$GT$$GT$::spec_extend::h1e78aa3285e39428>
+ - func[761] <_$LT$alloc..vec..Vec$LT$T$GT$$u20$as$u20$alloc..vec..SpecExtend$LT$$RF$T$C$core..slice..iter..Iter$LT$T$GT$$GT$$GT$::spec_extend::hdb3bcf17b49ec5d6>
  - func[762] <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::ha7df5a108bceb044>
  - func[763] <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hb6a7e023c6d51db1>
  - func[764] <_$LT$T$u20$as$u20$core..any..Any$GT$::type_id::hed7fce071bfb1e5d>
@@ -34096,12 +34095,12 @@ Custom:
  - func[867] <core::ptr::drop_in_place::h02251e61176f564b>
  - func[868] <core::panicking::panic_bounds_check::hdddb319138ce4d81>
  - func[869] <core::panicking::panic::ha3ebe59aebd3c1c5>
- - func[870] <core::slice::slice_end_index_len_fail::hc98b6c0a11035fda>
+ - func[870] <core::slice::index::slice_end_index_len_fail::hdacbea0c00ad2293>
  - func[871] <core::fmt::Formatter::pad::h79079677add4d848>
  - func[872] <core::str::slice_error_fail::h112061534addde52>
  - func[873] <core::panicking::panic_fmt::h737216b7ba45ec3d>
- - func[874] <core::slice::slice_index_order_fail::h2b978bbe49807535>
- - func[875] <core::slice::slice_start_index_len_fail::h0156045514ecd7da>
+ - func[874] <core::slice::index::slice_index_order_fail::h73583340ce0f7dfe>
+ - func[875] <core::slice::index::slice_start_index_len_fail::hd72fb7c3fb8b6e73>
  - func[876] <core::fmt::num::imp::_$LT$impl$u20$core..fmt..Display$u20$for$u20$u32$GT$::fmt::hc4ba1f2074daffde>
  - func[877] <core::fmt::write::hc21fdaca7ccb09cf>
  - func[878] <_$LT$core..ops..range..Range$LT$Idx$GT$$u20$as$u20$core..fmt..Debug$GT$::fmt::h1f808d3ef6d54be2>
@@ -34187,59 +34186,59 @@ Custom:
  - func[958] <lvgl::objx::label::set_long_mode::h7b37bfbf822af229>
  - func[959] <lvgl::objx::label::set_align::hbcd0068b0ed84dee>
  - func[960] <lvgl::objx::label::set_recolor::h83ba87426422c8a0>
- - func[961] <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
- - func[962] <core::ptr::write::hd1f2c54ce169ed7c>
- - func[963] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
- - func[964] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
- - func[965] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
- - func[966] <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h1b888fdf6d122663>
- - func[967] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h56620285d176388d>
- - func[968] <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hffbf75bd0eb580c8>
- - func[969] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h6e157c6109d3274d>
- - func[970] <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
- - func[971] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
- - func[972] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
- - func[973] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
- - func[974] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::hdf661c1f30acb2a6>
- - func[975] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
- - func[976] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
- - func[977] <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
- - func[978] <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
- - func[979] <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf32b82b6b7f99dae>
- - func[980] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::h62da534ab21616ff>
- - func[981] <cstr_core::strlen::he3498edf0385c838>
- - func[982] <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
- - func[983] <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
- - func[984] <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
- - func[985] <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
- - func[986] <cstr_core::CStr::to_str::h1dc14e54275e452a>
- - func[987] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
- - func[988] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
- - func[989] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
- - func[990] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
- - func[991] <core::slice::from_raw_parts::h02c5b44a53f8bd42>
- - func[992] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h5c94fadc11c8a53d>
- - func[993] <core::slice::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::hbbab64550218751d>
- - func[994] <_$LT$core..slice..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::he3f183bc655a558f>
- - func[995] <core::slice::from_raw_parts_mut::hdf7ca399c828d123>
- - func[996] <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h5ac74a4921446d90>
- - func[997] <core::slice::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::hf90de87bd88cb411>
- - func[998] <core::slice::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h267c6d8c1517e0be>
- - func[999] <core::fmt::ArgumentV1::new::h234f9148bcecb353>
- - func[1000] <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
- - func[1001] <core::fmt::ArgumentV1::new::h583455f58b95816e>
- - func[1002] <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
- - func[1003] <core::fmt::ArgumentV1::new::ha482515d9b945afa>
- - func[1004] <core::fmt::ArgumentV1::new::hf08de881d8bab824>
- - func[1005] <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
- - func[1006] <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
- - func[1007] <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
- - func[1008] <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
- - func[1009] <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
- - func[1010] <core::char::methods::len_utf8::h59f634acc855c054>
- - func[1011] <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
- - func[1012] <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
- - func[1013] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[961] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::add::hf0488bde113657f3>
+ - func[962] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::h57e82972888ba299>
+ - func[963] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$$u5b$T$u5d$$GT$::as_mut_ptr::h47285dcb549a0a59>
+ - func[964] <core::ptr::slice_from_raw_parts_mut::h7846ee80f170f686>
+ - func[965] <core::ptr::write::hd1f2c54ce169ed7c>
+ - func[966] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h31c75dcc70ddeac0>
+ - func[967] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::h98ecc92c913951fa>
+ - func[968] <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hdebcf8a2e4ed417e>
+ - func[969] <_$LT$core..ops..range..RangeFull$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index_mut::hd3d4c72dd15d1490>
+ - func[970] <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h126a144b2b12e503>
+ - func[971] <core::slice::index::_$LT$impl$u20$core..ops..index..IndexMut$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index_mut::h92943bfcba2131f3>
+ - func[972] <core::fmt::ArgumentV1::new::h234f9148bcecb353>
+ - func[973] <_$LT$$RF$T$u20$as$u20$core..fmt..Display$GT$::fmt::h081485cb7d5b41e9>
+ - func[974] <core::fmt::ArgumentV1::new::h583455f58b95816e>
+ - func[975] <core::fmt::ArgumentV1::new::h6dd24e81317c9592>
+ - func[976] <core::fmt::ArgumentV1::new::ha482515d9b945afa>
+ - func[977] <core::fmt::ArgumentV1::new::hf08de881d8bab824>
+ - func[978] <core::fmt::Arguments::new_v1_formatted::heee2b2e7278bfc21>
+ - func[979] <core::fmt::Arguments::new_v1::h97e01fbeaabf9100>
+ - func[980] <core::str::from_utf8_unchecked::h1eaa1a0a18de12b2>
+ - func[981] <core::str::from_utf8_unchecked_mut::hcdb74e18a0279eca>
+ - func[982] <core::char::methods::encode_utf8_raw::h8c174721da2d0553>
+ - func[983] <core::char::methods::len_utf8::h59f634acc855c054>
+ - func[984] <core::char::methods::_$LT$impl$u20$char$GT$::encode_utf8::h3ade07044988c2f0>
+ - func[985] <core::char::methods::_$LT$impl$u20$char$GT$::len_utf8::h808e4dbd1b5e6075>
+ - func[986] <core::slice::raw::from_raw_parts_mut::h827f80eee08da6b9>
+ - func[987] <core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::write::h1c26045a668aa211>
+ - func[988] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::hdaba9cde71ffe1be>
+ - func[989] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h4f097d75280d670d>
+ - func[990] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::he72e787bd8732297>
+ - func[991] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h9a50c39fc044c67f>
+ - func[992] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h6305f9750ad74d0e>
+ - func[993] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::h596833e165907fb2>
+ - func[994] <core::ptr::slice_from_raw_parts::ha4a1fbd48fb2c7cc>
+ - func[995] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h08fdb51033bc2991>
+ - func[996] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h38264d8266d67be0>
+ - func[997] <core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$$u5b$T$u5d$$GT$::as_ptr::hec99ec78cd445834>
+ - func[998] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked::h09b4e00390540ef0>
+ - func[999] <cstr_core::strlen::he3498edf0385c838>
+ - func[1000] <cstr_core::CStr::to_bytes::h4e2cc86304943f45>
+ - func[1001] <cstr_core::CStr::from_ptr::h6bae0654e471cc55>
+ - func[1002] <cstr_core::CStr::from_bytes_with_nul_unchecked::h63b7e9c83de66083>
+ - func[1003] <cstr_core::CStr::to_bytes_with_nul::h6e16a1ff018e3227>
+ - func[1004] <cstr_core::CStr::to_str::h1dc14e54275e452a>
+ - func[1005] <_$LT$core..slice..iter..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::hd051dec28028cb15>
+ - func[1006] <core::slice::raw::from_raw_parts::h6d899a2be24fc2ab>
+ - func[1007] <_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hf9aa65b25a668f77>
+ - func[1008] <_$LT$core..ops..range..RangeTo$LT$usize$GT$$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::index::hcbd85b05e46551cb>
+ - func[1009] <core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::hf01b45372cbf53a4>
+ - func[1010] <core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h431fdafb736b4f86>
+ - func[1011] <core::slice::index::_$LT$impl$u20$core..ops..index..Index$LT$I$GT$$u20$for$u20$$u5b$T$u5d$$GT$::index::h2b8bb3f812220817>
+ - func[1012] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::h01e6bf1a762836ae>
+ - func[1013] <core::slice::iter::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::h4cc46b9e0dca2f51>
  - func[1014] <core::clone::impls::_$LT$impl$u20$core..clone..Clone$u20$for$u20$u8$GT$::clone::h936acbdeb9039a2d>
  - func[1015] <_$LT$typenum..bit..B0$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h397301b52074b98b>
  - func[1016] <_$LT$typenum..bit..B1$u20$as$u20$typenum..marker_traits..Bit$GT$::to_u8::h73ca79c584d8a6d1>
@@ -34252,8 +34251,8 @@ Custom:
  - func[1023] <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6873217320c0ce39>
  - func[1024] <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::h6c74582d82b1c9b1>
  - func[1025] <_$LT$typenum..uint..UInt$LT$U$C$B$GT$$u20$as$u20$typenum..marker_traits..Unsigned$GT$::to_usize::hee35d1b92596f2a3>
- - func[1026] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::hd54fec0483c8e804>
- - func[1027] <_$LT$usize$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::h5456b399b00bd9a2>
+ - func[1026] <_$LT$usize$u20$as$u20$core..slice..index..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$::get_unchecked_mut::hfd1f64c9fdfcf086>
+ - func[1027] <core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::get_unchecked_mut::h8be0e50261c1c002>
  - func[1028] <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::as_mut_slice::h5069026ba5dce3b2>
  - func[1029] <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::push_unchecked::h2822528c1cad2902>
  - func[1030] <heapless::vec::_$LT$impl$u20$heapless..i..Vec$LT$generic_array..GenericArray$LT$T$C$N$GT$$GT$$GT$::extend_from_slice::h57c4f39eccf2ee78>
