@@ -1513,13 +1513,15 @@ For quicker development, we have a __WebAssembly Simulator__ that will preview R
 
 The repository [`pinetime-rust-riot`](https://github.com/lupyuen/pinetime-rust-riot) auto-builds the WebAssembly Simulator with GitHub Actions whenever source files are changed. 
 
-To set up the WebAssembly Simulator for Rust on RIOT, see (`pinetime-rust-riot/README.md`)[https://github.com/lupyuen/pinetime-rust-riot/blob/master/README.md]
+To set up the WebAssembly Simulator for Rust on RIOT, see [`pinetime-rust-riot/README.md`](https://github.com/lupyuen/pinetime-rust-riot/blob/master/README.md)
 
 The WebAssembly Simulator is built according to the following __GitHub Actions Workflow__...
 
 [`.github/workflows/simulate.yml`](.github/workflows/simulate.yml)
 
 [More about WebAssembly Simulator for Rust on RIOT](https://github.com/AppKaki/lvgl-wasm/blob/rust/README.md)
+
+![Rust on RIOT Design](https://lupyuen.github.io/images/rust-on-riot-design.png)
 
 # LVGL and RIOT Bindings for Rust
 
@@ -1533,7 +1535,7 @@ It's possible to call the RIOT API from Rust. We could use one of the following 
 
 [`gitlab.com/etonomy/riot-wrappers`](https://gitlab.com/etonomy/riot-wrappers)
 
-![Rust on RIOT Design](https://lupyuen.github.io/images/rust-on-riot-design.png)
+![Remote PineTime](https://lupyuen.github.io/images/remote-pinetime-arch.jpg)
 
 # What's Next
 

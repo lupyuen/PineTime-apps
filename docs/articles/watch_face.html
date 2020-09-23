@@ -1262,17 +1262,18 @@ static int set_time_label(home_time_widget_t *ht) {
 <p>For quicker development, we have a <strong>WebAssembly Simulator</strong> that will preview Rust on RIOT Watch Faces in a web browser...</p>
 <p><a href="https://lupyuen.github.io/pinetime-rust-riot/lvgl.html">Online Demo of WebAssembly Simulator</a></p>
 <p>The repository <a href="https://github.com/lupyuen/pinetime-rust-riot"><code>pinetime-rust-riot</code></a> auto-builds the WebAssembly Simulator with GitHub Actions whenever source files are changed. </p>
-<p>To set up the WebAssembly Simulator for Rust on RIOT, see (<code>pinetime-rust-riot/README.md</code>)[https://github.com/lupyuen/pinetime-rust-riot/blob/master/README.md]</p>
+<p>To set up the WebAssembly Simulator for Rust on RIOT, see <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/README.md"><code>pinetime-rust-riot/README.md</code></a></p>
 <p>The WebAssembly Simulator is built according to the following <strong>GitHub Actions Workflow</strong>...</p>
 <p><a href=".github/workflows/simulate.yml"><code>.github/workflows/simulate.yml</code></a></p>
 <p><a href="https://github.com/AppKaki/lvgl-wasm/blob/rust/README.md">More about WebAssembly Simulator for Rust on RIOT</a></p>
+<p><img src="https://lupyuen.github.io/images/rust-on-riot-design.png" alt="Rust on RIOT Design" /></p>
 <h1 id="lvgl-and-riot-bindings-for-rust" class="section-header"><a href="#lvgl-and-riot-bindings-for-rust">27 LVGL and RIOT Bindings for Rust</a></h1>
 <p>Today our Rust code uses a custom-generated Rust Safe Wrapper for the LVGL Libray. The wrapper supports a subset of the LVGL functions. In future we should migrate the LVGL wrapper to this wrapper that is properly maintained...</p>
 <p><a href="https://github.com/rafaelcaricio/lvgl-rs"><code>github.com/rafaelcaricio/lvgl-rs</code></a></p>
 <p>It's possible to call the RIOT API from Rust. We could use one of the following Rust Wrappers for RIOT...</p>
 <p><a href="https://gitlab.com/etonomy/riot-sys"><code>gitlab.com/etonomy/riot-sys</code></a></p>
 <p><a href="https://gitlab.com/etonomy/riot-wrappers"><code>gitlab.com/etonomy/riot-wrappers</code></a></p>
-<p><img src="https://lupyuen.github.io/images/rust-on-riot-design.png" alt="Rust on RIOT Design" /></p>
+<p><img src="https://lupyuen.github.io/images/remote-pinetime-arch.jpg" alt="Remote PineTime" /></p>
 <h1 id="whats-next" class="section-header"><a href="#whats-next">28 What's Next</a></h1>
 <p>How to test your firmware without a PineTime? We now have a Remote PineTime that you may flash your firmware remotely (by sending Telegram Bot commands) and watch the live video stream (on YouTube).</p>
 <p><a href="https://github.com/lupyuen/remote-pinetime-bot/blob/master/README.md">Check out Remote PineTime</a></p>
