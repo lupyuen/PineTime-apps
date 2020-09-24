@@ -1559,6 +1559,10 @@ In this article I have demonstrated that it's not that hard to convert C code to
 
 _Rust on RIOT has great potential to become the safer, modern replacement for Arduino!_
 
+But there's much to be done to fill in the gaps... To make Rust on RIOT really usable by beginners. Please chat with me on Matrix / Discord / Telegram / IRC if you're keen to help!
+
+[PineTime Community](https://wiki.pine64.org/index.php/PineTime#Community)
+
 # References
 
 For more about Rust on RIOT, check out the presentation at [RIOT Summit 2020](https://summit.riot-os.org/2020/)...
