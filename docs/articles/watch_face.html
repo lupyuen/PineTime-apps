@@ -184,7 +184,7 @@ lv_obj_t *scr = lv_obj_create(NULL, NULL);
 <pre><code class="language-c">//  In C: Function declaration for lv_obj_create
 lv_obj_t * lv_obj_create(lv_obj_t *parent, const lv_obj_t *copy);
 </code></pre>
-<p><em>From https://github.com/littlevgl/lvgl/blob/master/src/lv_core/lv_obj.h</em></p>
+<p><em>From <a href="https://github.com/littlevgl/lvgl/blob/master/src/lv_core/lv_obj.h">lvgl/lv_core/lv_obj.h</a></em></p>
 <p>See the difference? The first parameter is a non-<code>const</code> pointer (i.e. it's Mutable), whereas the second parameter is a <code>const</code> pointer.</p>
 <p>Here's how we pass the two <code>NULL</code> pointers in Rust...</p>
 
@@ -231,7 +231,7 @@ void lv_label_set_text(lv_obj_t *label, const char *text);
 void lv_obj_set_width(lv_obj_t *obj, int16_t w);
 void lv_obj_set_height(lv_obj_t *obj, int16_t h);
 </code></pre>
-<p><em>From https://github.com/littlevgl/lvgl/blob/master/src/lv_core/lv_obj.h, https://github.com/littlevgl/lvgl/blob/master/src/lv_objx/lv_label.h</em></p>
+<p><em>From <a href="https://github.com/littlevgl/lvgl/blob/master/src/lv_core/lv_obj.h">lvgl/lv_core/lv_obj.h</a>, <a href="https://github.com/littlevgl/lvgl/blob/master/src/lv_objx/lv_label.h">lvgl/lv_objx/lv_label.h</a></em></p>
 <p>To call these C functions from Rust, we need to import them with <code>extern &quot;C&quot;</code> like this...</p>
 
 <div class="example-wrap"><pre class="rust rust-example-rendered">
@@ -243,7 +243,7 @@ void lv_obj_set_height(lv_obj_t *obj, int16_t h);
     <span class="kw">fn</span> <span class="ident">lv_obj_set_width</span>(<span class="ident">obj</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">lv_obj_t</span>, <span class="ident">w</span>: <span class="ident">i16</span>);
     <span class="kw">fn</span> <span class="ident">lv_obj_set_height</span>(<span class="ident">obj</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">lv_obj_t</span>, <span class="ident">h</span>: <span class="ident">i16</span>);
 }</pre></div>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/core/obj.rs, https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/core/obj.rs">rust/lvgl/src/core/obj.rs</a>, <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs">rust/lvgl/src/objx/label.rs</a></em></p>
 <p><em>See the Name/Type Flipping? We did it again!</em></p>
 <p>Take note of the <code>*mut</code> and <code>*const</code> pointers... Rust is very picky about Mutability!</p>
 <p>What's <code>*const u8</code>? It's complicated... We'll talk about strings in a while.</p>
@@ -423,7 +423,7 @@ ht-&gt;lv_time = label1;
 <tr><td align="left">  <code>bool charging;</code></td><td align="left">  <code>charging: bool,</code></td></tr>
 <tr><td align="left">  <code>bool powered;</code></td><td align="left">  <code>powered: bool,</code></td></tr>
 <tr><td align="left"><code>} home_time_widget_t;</code></td><td align="left"><code>}</code></td></tr>
-<tr><td align="left"><em>From https://github.com/bosmoment/PineTime-apps/blob/master/widgets/home_time/include/home_time.h</em></td><td align="left"><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs">rust/app/src/watch_face.rs</a></em></td></tr>
+<tr><td align="left"><em>From <a href="https://github.com/bosmoment/PineTime-apps/blob/master/widgets/home_time/include/home_time.h">widgets/home_time/include/home_time.h</a></em></td><td align="left"><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs">rust/app/src/watch_face.rs</a></em></td></tr>
 <tr><td align="left"><br></td><td align="left"></td></tr>
 </tbody></table>
 <p>Note the Name/Type Flipping. Also semicolons &quot;<code>;</code>&quot; have been replaced by commas &quot;<code>,</code>&quot;.</p>
@@ -440,7 +440,7 @@ ht-&gt;lv_time = label1;
 <tr><td align="left">  <code>BLEMAN_BLE_STATE_DISCONNECTED,</code></td><td align="left">  <code>BLEMAN_BLE_STATE_DISCONNECTED = 2,</code></td></tr>
 <tr><td align="left">  <code>BLEMAN_BLE_STATE_CONNECTED,</code></td><td align="left">  <code>BLEMAN_BLE_STATE_CONNECTED = 3,</code></td></tr>
 <tr><td align="left"><code>} bleman_ble_state_t;</code></td><td align="left"><code>}</code></td></tr>
-<tr><td align="left"><em>From https://github.com/bosmoment/PineTime-apps/blob/master/modules/bleman/include/bleman.h</em></td><td align="left"><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs">rust/app/src/watch_face.rs</a></em></td></tr>
+<tr><td align="left"><em>From <a href="https://github.com/bosmoment/PineTime-apps/blob/master/modules/bleman/include/bleman.h">modules/bleman/include/bleman.h</a></em></td><td align="left"><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs">rust/app/src/watch_face.rs</a></em></td></tr>
 <tr><td align="left"><br></td><td align="left"></td></tr>
 </tbody></table>
 <p>Note that we specified in Rust the Enum values <code>0, 1, 2, 3</code> to avoid any possible ambiguity.</p>
@@ -518,7 +518,7 @@ void lv_label_set_text(lv_obj_t *label, const char *text);
     <span class="kw">fn</span> <span class="ident">lv_obj_set_width</span>(<span class="ident">obj</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">lv_obj_t</span>, <span class="ident">w</span>: <span class="ident">i16</span>);
     <span class="kw">fn</span> <span class="ident">lv_obj_set_height</span>(<span class="ident">obj</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">lv_obj_t</span>, <span class="ident">h</span>: <span class="ident">i16</span>);
 }</pre></div>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/core/obj.rs, https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/core/obj.rs">rust/lvgl/src/core/obj.rs</a>, <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs">rust/lvgl/src/objx/label.rs</a></em></p>
 <p>The above Rust code was automatically generated by a <a href="https://rust-lang.github.io/rust-bindgen/command-line-usage.html">command-line tool named <code>bindgen</code></a>. We install <code>bindgen</code> and run it like this...</p>
 <pre><code class="language-bash">cargo install bindgen
 bindgen lv_obj.h -o obj.rs
@@ -547,7 +547,7 @@ bindgen lv_obj.h -o obj.rs
     -std=c99 \
     -fno-common
 </code></pre>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/scripts/gen-bindings.sh</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/scripts/gen-bindings.sh">scripts/gen-bindings.sh</a></em></p>
 <p>After <code>--</code>, we add the same <code>gcc</code> options we would use for compiling the Embedded C code (for RIOT in this case)...</p>
 <ul>
 <li>
@@ -662,7 +662,7 @@ bindgen --verbose --use-core --ctypes-prefix ::cty --with-derive-default --no-de
     <span class="ident">label1</span>,
     <span class="macro">strn</span><span class="macro">!</span>(<span class="string">&quot;00:00&quot;</span>)
 );</pre></div>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L9239-L9259</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L9239-L9259">logs/liblvgl-expanded.rs</a></em></p>
 <p><code>set_text</code> is a Wrapper Function that provides a safe way to call <code>lv_label_set_text</code></p>
 <p>Now we simply call <code>set_text</code> instead of <code>lv_label_set_text</code>... No more <code>unsafe</code> code!</p>
 <p>Instead of passing unsafe C pointers to the text string, we now pass an <code>Strn</code> object. </p>
@@ -701,7 +701,7 @@ bindgen --verbose --use-core --ctypes-prefix ::cty --with-derive-default --no-de
         <span class="ident">text</span>:  <span class="kw-2">*</span><span class="kw">const</span> ::<span class="ident">cty</span>::<span class="ident">c_char</span>
     );
 }</pre></div>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/lvgl/src/objx/label.rs">rust/lvgl/src/objx/label.rs</a></em></p>
 <p>And this Safe Wrapper function (that calls <code>lv_label_set_text</code> safely)?</p>
 
 <div class="example-wrap"><pre class="rust rust-example-rendered">
@@ -725,7 +725,7 @@ bindgen --verbose --use-core --ctypes-prefix ::cty --with-derive-default --no-de
         <span class="prelude-val">Ok</span>(())  <span class="comment">//  Return OK</span>
     }
 }</pre></div>
-<p><em>From https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L9239-L9259</em></p>
+<p><em>From <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L9239-L9259">logs/liblvgl-expanded.rs</a></em></p>
 <p><em>Answer: They are exactly the same!</em></p>
 <p>The magic happens in this line of code...</p>
 
@@ -791,7 +791,7 @@ lv_area_t coords = screen-&gt;coords;
         <span class="kw">else</span> { <span class="prelude-val">Ok</span>( <span class="ident">result</span> ) }
     }
 }</pre></div>
-<p><em>Based on https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L5942-L5967</em></p>
+<p><em>Based on <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/logs/liblvgl-expanded.rs#L5942-L5967">logs/liblvgl-expanded.rs</a></em></p>
 <p>What happens in the <code>create</code> Safe Wrapper Function?</p>
 <ol>
 <li>
@@ -981,7 +981,7 @@ static int set_time_label(home_time_widget_t *ht) {
     ) <span class="question-mark">?</span> ;   <span class="comment">//  If error, return Err to caller</span>
     <span class="prelude-val">Ok</span>(())  <span class="comment">//  Return Ok</span>
 }</pre></div>
-<p><em>Based on https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs</em></p>
+<p><em>Based on <a href="https://github.com/lupyuen/pinetime-rust-riot/blob/master/rust/app/src/watch_face.rs">rust/app/src/watch_face.rs</a></em></p>
 <p><em>Why do we use <code>heapless::String</code> instead of the usual <code>String</code> type in Rust?</em></p>
 <p>The usual <a href="https://doc.rust-lang.org/std/string/struct.String.html"><code>String</code></a> type in Rust uses Heap Memory... It allocates memory dynamically to store strings.  But we don't allow Heap Memory in our Rust program.</p>
 <p><a href="https://docs.rs/heapless/0.5.3/heapless/struct.String.html"><code>heapless::String</code></a> is a <a href="https://docs.rs/heapless/0.5.3/heapless/struct.String.html"><strong>Heapless String</strong></a> that doesn't use Heap Memory. It uses a fixed-size array stored on the stack (like above) or stored in Static Memory.</p>
@@ -1116,7 +1116,7 @@ static int set_time_label(home_time_widget_t *ht) {
     //  Create a string buffer in static memory with max size 6 to format the time
     static char time[6];
 </code></pre>
-<p><em>Based on https://github.com/bosmoment/PineTime-apps/blob/master/widgets/home_time/screen_time.c</em></p>
+<p><em>Based on <a href="https://github.com/bosmoment/PineTime-apps/blob/master/widgets/home_time/screen_time.c">widgets/home_time/screen_time.c</a></em></p>
 <p>Here we allocate a 6-byte string buffer in Static Memory to format the time for display on PineTime.</p>
 <p><em>What's the initial value of <code>time</code>?</em></p>
 <p>Static Memory (also known as BSS) is implicitly initialised with null bytes.  So <code>time</code> is initially set to 6 bytes of null.  Which also represents an empty string <code>&quot;&quot;</code> in C (since C strings are terminated by null).</p>
