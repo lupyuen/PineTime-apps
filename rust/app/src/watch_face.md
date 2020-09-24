@@ -1529,11 +1529,23 @@ Today our Rust code uses a custom-generated Rust Safe Wrapper for the LVGL Libra
 
 [`github.com/rafaelcaricio/lvgl-rs`](https://github.com/rafaelcaricio/lvgl-rs)
 
-It's possible to call the RIOT API from Rust. We could use one of the following Rust Wrappers for RIOT...
+To call the RIOT API from Rust, we could use one of the following Rust Wrappers for RIOT...
 
 [`gitlab.com/etonomy/riot-sys`](https://gitlab.com/etonomy/riot-sys)
 
 [`gitlab.com/etonomy/riot-wrappers`](https://gitlab.com/etonomy/riot-wrappers)
+
+![Druid with LVGL](https://lupyuen.github.io/images/druid-lvgl.png)
+
+# Declarative User Interfaces with Rust and LVGL
+
+Can we create Declarative User Interfaces in Rust and LVGL?
+
+So instead of specifying precise row and column pixel positions of each widget... We just lay them out in a table like HTML?
+
+We're extending the Druid UI library so that it renders with LVGL widgets...
+
+[`github.com/AppKaki/druid-lvgl`](https://github.com/AppKaki/druid-lvgl/blob/master/README.md)
 
 ![Remote PineTime](https://lupyuen.github.io/images/remote-pinetime-arch.jpg)
 
