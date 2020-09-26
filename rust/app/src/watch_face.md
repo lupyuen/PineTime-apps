@@ -1569,7 +1569,7 @@ For more about Rust on RIOT, check out the presentation at [RIOT Summit 2020](ht
 
 [Safer, Simpler Embedded Programs with Rust on RIOT](https://docs.google.com/presentation/d/1IgCsWJ5TYpPaHXZlaETlM2rYQrBmOpN2WeFsNjmYO_k/edit?usp=sharing)
 
-[Video Presentation](https://youtu.be/rTxeXnlH-mM)
+[Video Presentation at RIOT Summit](https://youtu.be/LvfCSnOM1Hs)
 
 Check out my articles on PineTime and IoT...
 
